@@ -8,11 +8,14 @@ export default {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
-      },
+      fontFamily: {
+        sans: ["sans-serif"],
+        helvetica: ["helvetica"],
+        arial: ["arial"],
+      }
     },
   },
-  plugins: [],
+  plugins: [
+    require("@tailwindcss/typography")
+  ],
 } satisfies Config;
