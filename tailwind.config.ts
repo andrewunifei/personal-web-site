@@ -12,7 +12,10 @@ export default {
         sans: ["sans-serif"],
         helvetica: ["helvetica"],
         arial: ["arial"],
-      }
+      },
+      colors: {
+        'anduril-bg': '#000',
+      },
     },
   },
   plugins: [
