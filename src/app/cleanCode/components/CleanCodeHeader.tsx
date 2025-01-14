@@ -3,10 +3,9 @@
 import * as React from 'react';
 import { GitHub, LinkedIn, X } from '@mui/icons-material';
 import MenuIcon from '@mui/icons-material/Menu';
-import { Box, Link } from "@mui/material"
+import { Box } from "@mui/material"
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
-
 
 const externaLinks = {
     'github': "http://www.github.com/andrewunifei",
@@ -31,16 +30,15 @@ export default function CleanCodeHeader() {
                 <a href={externaLinks['linkedin']} target="_blank"><LinkedIn /></a>
                 <a href={externaLinks['x']} target="_blank"><X /></a>  
                 <div>
-                    <a
+                    <MenuIcon
                         id="basic-button"
                         aria-controls={open ? 'basic-menu' : undefined}
                         aria-haspopup="true"
                         aria-expanded={open ? 'true' : undefined}
                         onClick={handleClick}
                         className='cursor-pointer'
-                    >
-                        <MenuIcon /> 
-                    </a>       
+                    > 
+                    </MenuIcon>       
                     <Menu
                         id="basic-menu"
                         anchorEl={anchorEl}
@@ -50,6 +48,7 @@ export default function CleanCodeHeader() {
                         'aria-labelledby': 'basic-button',
                         }}
                     >
+                        <MenuItem onClick={handleClose}>Índice</MenuItem>
                         <MenuItem onClick={handleClose}>Andrew's site</MenuItem>
                         <MenuItem onClick={handleClose}>Trading</MenuItem>
                     </Menu> 
