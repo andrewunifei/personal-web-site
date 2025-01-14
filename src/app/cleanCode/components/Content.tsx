@@ -30,14 +30,19 @@ export default function Content() {
                 </p>
             </Paper>
             <Divider orientation="vertical" className="bg-[#B5B5B5]" flexItem/>
-            <Paper elevation={0} square={true} className="basis-1/2 p-8 flex flex-col justify-center bg-[#000]">
-                <p>
-                    O autor declara:
-                </p>
-                <br />
-                <p className="italic px-5 text-justify">
-                Se você ler a primeira e a terceira seções e pular os estudos de caso, então você terá lido mais um livro "para se sentir bem" sobre escrever um bom software. Mas se você reservar um tempo para trabalhar nos estudos de caso, seguindo cada pequeno passo, cada decisão minuciosa — se você se colocar no nosso lugar e se forçar a pensar nos mesmos caminhos que nós pensamos, então você ganhará uma compreensão muito mais rica desses princípios, padrões, práticas e heurísticas. Eles não serão mais conhecimento "para se sentir bem". Eles terão sido moídos em seu intestino, dedos e coração. Eles terão se tornado parte de você da mesma forma que uma bicicleta se torna uma extensão de sua vontade quando você domina como pedalá-la.
-                </p>
+            <Paper elevation={0} square={true} className="basis-1/2 p-8 w-full flex flex-col bg-[#000]">
+                <Box className="flex justify-center w-full items-center">
+                    <p className="font-extrabold text-sm">PT. 0</p>
+                </Box>
+                <Box className="flex flex-col justify-center h-full">
+                    <p>
+                        O autor declara:
+                    </p>
+                    <br />
+                    <p className="italic px-5 text-justify">
+                    Se você ler a primeira e a terceira seções e pular os estudos de caso, então você terá lido mais um livro "para se sentir bem" sobre escrever um bom software. Mas se você reservar um tempo para trabalhar nos estudos de caso, seguindo cada pequeno passo, cada decisão minuciosa — se você se colocar no nosso lugar e se forçar a pensar nos mesmos caminhos que nós pensamos, então você ganhará uma compreensão muito mais rica desses princípios, padrões, práticas e heurísticas. Eles não serão mais conhecimento "para se sentir bem". Eles terão sido moídos em seu intestino, dedos e coração. Eles terão se tornado parte de você da mesma forma que uma bicicleta se torna uma extensão de sua vontade quando você domina como pedalá-la.
+                    </p>
+                </Box>
             </Paper>
         </>
     ) 
