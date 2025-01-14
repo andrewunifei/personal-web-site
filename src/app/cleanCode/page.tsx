@@ -2,9 +2,9 @@ import CleanCodeHeader from "./components/CleanCodeHeader"
 import CleanCodeSection from "./components/CleanCodeSection"
 import { Container, Box } from "@mui/material"
 
-export default function Header() {
+export default function CleanCode() {
     return (
-        <div className="bg-[#F5F5F5] pb-32">
+        <div className="bg-[#F5F5F5] pb-32 px-8 h-full">
             <Container maxWidth="xl" className="bg-[#F5F5F5]">    
                 <CleanCodeHeader />
                 <CleanCodeSection />
