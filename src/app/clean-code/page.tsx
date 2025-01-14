@@ -53,7 +53,7 @@ export default function CleanCode() {
             </div>
             <div    
                 color="primary"
-                className={`fixed bg-cyan-500 border rounded-md border-black bottom-0 right-0 px-2 py-2 mr-6 mb-[71px] z-50 flex scrollToTopButton ${isVisible ? 'visible' : ''}`}
+                className={`fixed bg-emerald-200 border rounded-md border-black bottom-0 right-0 px-2 py-2 mr-6 mb-[71px] z-50 flex scrollToTopButton ${isVisible ? 'visible' : ''}`}
                 onClick={scrollToTop}
             >
                 <ArrowUpwardIcon/>
