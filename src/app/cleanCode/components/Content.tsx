@@ -9,8 +9,8 @@ export default function Content() {
                         <p className="text-stone-500 text-sm"><span className="italic">Clean Code</span> por Robert Cecil Martin (Resumo)</p>
                         <p className="font-extrabold">00</p>
                     </Box>
-                    <h1 className="text-3xl font-extrabold">Introdução</h1>
                 </Box>
+                <h1 className="text-3xl font-extrabold">Introdução</h1>
                 <Box className="flex flex-col justify-center h-full">
                     <p>
                         Você deve cultivar conhecimentos sobre Princípios, Padrões, Práticas, e Heurísticas que um artesão de código possui, e você também precisa colocar em prática esses conhecimentos. Trabalho duro, não basta apenas saber.
