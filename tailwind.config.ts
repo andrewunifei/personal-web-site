@@ -19,6 +19,20 @@ export default {
     },
   },
   plugins: [
-    require("@tailwindcss/typography")
+    require("@tailwindcss/typography"),
+    function({ addUtilities }) {
+      const newUtilities = {
+        '.scrollToTopButton': {
+          cursor: 'pointer',
+          opacity: 0,
+          transition: 'opacity 0.3s ease-in-out'
+        },
+        '.scrollToTopButton.visible':  {
+          opacity: 1,
+        }
+      }
+
+      addUtilities(newUtilities)
+    }
   ],
 } satisfies Config;

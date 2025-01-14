@@ -6,7 +6,7 @@ export default function Content() {
             <Paper elevation={0} square={true} className="basis-1/2 p-8 flex flex-col">
                 <Box className="flex flex-col w-full">
                     <Box className="flex justify-between items-center pb-3">
-                        <p className="text-stone-500 text-sm"><span className="italic">Clean Code</span> por Robert Cecil Martin (Resumo)</p>
+                        <p className="text-stone-500 text-sm">(Resumo) <span className="italic">Clean Code</span> por Robert Cecil Martin</p>
                         <p className="font-extrabold">00</p>
                     </Box>
                 </Box>
